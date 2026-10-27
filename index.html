@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slow-Burn</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Slow Burn - Cherish Every Sweat...</h1>
+    <!-- CHOOSE THE SESSION -->
+    <form id="form">
+      <select id="sessionType">
+        <option value="Push">Push</option>
+        <option value="Pull">Pull</option>
+        <option value="Legs">Legs</option>
+      </select>
+      <!-- ENTER THE EXERCISE NAME -->
+      <input
+        type="text"
+        name="ExerciseName"
+        id="ExerciseName"
+        placeholder="What did you hit?"
+      />
+      <!--ENTER THE WEIGHT LIFTED -->
+      <input
+        type="number"
+        name="Weight"
+        id="Weight"
+        placeholder="Drop the Weight..."
+      />
+      <!--   ENTER THE NO.OF SETS -->
+      <input
+        type="number"
+        name="NumOfSets"
+        id="NumOfSets"
+        placeholder="How much Sets..."
+      />
+      <!--ENTER THE NO.OF REPS  -->
+      <input
+        type="number"
+        name="Reps"
+        id="RepsPerSet"
+        placeholder="How much reps"
+      />
+
+      <button id="Addbtn">Add Session</button>
+    </form>
+    <div id="stats"></div>
+    <div id="workoutList"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
